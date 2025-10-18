@@ -24,7 +24,7 @@ create table tracks (
 	track_name varchar(100) not null,
 	track_text text,
 	track_path text, -- путь на файл трека в файловой системе
-	track_author uuid not null, -- логическая связка с автором
+	track_author uuid not null, -- логическая связка с авторами (связь должна быть многие-ко-многим)
 	track_album uuid not null, -- логическая связка с альбомом
 	track_genre uuid not null,
 	track_created_at timestamptz not null, default now(),
@@ -38,4 +38,11 @@ create table tracks (
 create index idx_tracks_author on tracks(track_author);
 create index idx_tracks_album on tracks(track_album);
 create index idx_tracks_genre on tracks(track_genre);
-Ccreate index idx_tracks_deleted on tracks(track_deleted) where not track_deleted;
+create index idx_tracks_name on tracks(track_name);
+create index idx_tracks_deleted on tracks(track_deleted) where not track_deleted;
+
+create index idx_genres_name on genres(genre_name);
+
+create index idx_artists_nickname on astists(artist_nickname);
+
+create index idx_albums_name on albums(album_name);

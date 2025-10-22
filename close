@@ -1,0 +1,53 @@
+[33mcommit f39acc5150478a1cbe39fff0a55f3d39a7e4f32a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Wed Oct 22 18:14:06 2025 +0300
+
+    Доработка репо для документирования; изменение Readme
+
+[33mcommit 73f190e2dccb0fa81b21dcacb809873c4e808e05[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sun Oct 19 21:44:30 2025 +0300
+
+    Дополнен Readme файл
+
+[33mcommit 1040bb40f31db89947312509de87a0b774869d62[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 23:21:02 2025 +0300
+
+    Подправлен readme
+
+[33mcommit d25ca3e18866e724bf35c146636a7eb76eb92fe1[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 23:18:22 2025 +0300
+
+    Подправлен readme
+
+[33mcommit 3868b28e1cd3bcc689c49ca360af24468b3396f0[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 23:15:22 2025 +0300
+
+    Подправлена база треков, также, сделана база управления профилями пользователей
+
+[33mcommit 55abd1364be2a92825d23a434d1f23c192a895d0[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 10:36:04 2025 +0300
+
+    Оформление Readme
+
+[33mcommit b482727f0dd7412e4e6bc5fbf433507df9d533ac[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 10:10:03 2025 +0300
+
+    .gitignore адаптирован для языка Rust
+
+[33mcommit 055a81b5a94194e979605fc5051c5759b0b80963[m
+Author: code08 <cross6694795@gmail.com>
+Date:   Sat Oct 18 10:03:15 2025 +0300
+
+    Созданы базы даннх для сервиса альбомов и сервиса треков; базовое оформление Readme
+
+[33mcommit 1bdb574ec7b2d1965dae514f775bc4f7b57d19de[m
+Author: Code08 <100559620+Code0871@users.noreply.github.com>
+Date:   Sat Oct 18 09:29:00 2025 +0300
+
+    Initial commit
